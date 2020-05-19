@@ -1,4 +1,4 @@
-n = int(input("Enter the Value of N: "))
+n = int(input("Enter the Value: "))
 for i in range(n):
     print("* " * (n - i) + "    " * i + " *" * (n - i))
 for i in range(2,n + 1):
